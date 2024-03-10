@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Introduction Video"
+    url: https://www.macvideo.ca/media/LUE+Planets+Group+Introduction+Video/1_dyv3mf3x
+  - title: "Seminar 1"
+    url: https://samibabbar.github.io/luegroupplanets/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
