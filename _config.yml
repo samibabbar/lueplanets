@@ -24,8 +24,8 @@ description              : "The following website is a recource site for the pla
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/exoplanet.png
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : /assets/images/unsplash-image-1.jpg
+logo                     : /assets/images/unsplash-image-1.jpg
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -285,9 +285,9 @@ defaults:
       type: posts
     values:
       header:
-        overlay_image: /assets/images/exoplanet.png
-        caption: "Photo credit: [**Howell, 2014**](https://scitechdaily.com/early-chemistry-stars-protoplanetary-disc-shapes-life-friendly-atmospheres/)"
-      layout: splash
+        overlay_image: /assets/images/screenshot.png
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      layout: single
       author_profile: false
       read_time: true
       comments: # true
