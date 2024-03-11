@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Planetary Formation Seminar 2: LUE ISCI 3A12"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Sami, Maya, Naya, Max, Keira, Ben"
+name                     : # null
 description              : "The following website is a recource site for the planetary formation group's seminars, taking place on February 28th, 2024 and March 18th, 2024"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -27,9 +27,6 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : /assets/images/exoplanet.png
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-header:
-  overlay_image: /assets/images/exoplanet.png
-  caption: "Photo credit: [**Howell, 2014**](https://scitechdaily.com/early-chemistry-stars-protoplanetary-disc-shapes-life-friendly-atmospheres/)"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -287,9 +284,13 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      header:
+        overlay_image: /assets/images/exoplanet.png
+        caption: "Photo credit: [**Howell, 2014**](https://scitechdaily.com/early-chemistry-stars-protoplanetary-disc-shapes-life-friendly-atmospheres/)"
+      layout: splash
       author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
+
